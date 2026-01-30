@@ -28,6 +28,7 @@
     --color13: #c1ff8a;
     --color14: #4f7e7e;
     --color15: #507350;
+    --base00: var(--color00);
 
   /* UI surfaces */
   --eh-0: #16161c;
@@ -291,20 +292,17 @@ div#---new-messages-bar.divider__908e2.isUnread__908e2 .content__908e2 {
 }
 
 div#---new-messages-bar.divider__908e2.isUnread__908e2 .unreadPill__908e2 {
-  background-image: linear-gradient(
-    120deg,
-    color-mix(in srgb, var(--color05) 55%, var(--eh-1)) 0%,
-    color-mix(in srgb, var(--color12) 55%, var(--eh-1)) 50%,
-    color-mix(in srgb, var(--color02) 45%, var(--eh-1)) 100%
-  ) !important;
+  background-image: none !important;
+  background-color: var(--base00) !important;
   color: var(--color07) !important;
   border: 1px solid color-mix(in srgb, var(--color12) 55%, transparent) !important;
   border-radius: 999px !important;
   padding: 0 8px !important;
   height: 16px !important;
+  margin-top: -3px !important;
   display: inline-flex !important;
   align-items: center !important;
-  font-size: 10px !important;
+  font-size: 9px !important;
   transform: translateY(1px) !important;
   box-shadow:
     0 0 0 1px color-mix(in srgb, var(--color05) 35%, transparent),
