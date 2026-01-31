@@ -29,25 +29,25 @@ return {
 				-- fg_dark: Inactive elements, statusline, secondary text
 				fg_dark = "#409931",
 				-- comment: Line highlight, gutter elements, disabled states
-				comment = "#ffd700",
+				comment = "#4f7e7e",
 
 				-- Accent colors
 				-- red: Errors, diagnostics, tags, deletions, breakpoints
-				red = "#688060",
+				red = "#faff00",
 				-- orange: Constants, numbers, current line number, git modifications
-				orange = "#688060",
+				orange = "#ffd700",
 				-- yellow: Types, classes, constructors, warnings, numbers, booleans
-				yellow = "#90d762",
+				yellow = "#11ff25",
 				-- green: Comments, strings, success states, git additions
 				green = "#faff00",
 				-- cyan: Parameters, regex, preprocessor, hints, properties
-				cyan = "#4f7e7e",
+				cyan = "#90d762",
 				-- blue: Functions, keywords, directories, links, info diagnostics
 				blue = "#11ff25",
 				-- purple: Storage keywords, special keywords, identifiers, namespaces
 				purple = "#c1ff8a",
 				-- magenta: Function declarations, exception handling, tags
-				magenta = "#c1ff8a",
+				magenta = "#4f7e7e",
 			},
 		},
 		config = function(_, opts)
