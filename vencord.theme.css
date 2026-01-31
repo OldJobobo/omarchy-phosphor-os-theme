@@ -30,22 +30,22 @@
     --color15: #507350;
     --base00: var(--color00);
 
-  /* UI surfaces */
-  --eh-0: #16161c;
-  --eh-1: #1c1e26;
-  --eh-2: #232530;
-  --eh-3: #2e303e;
-  --eh-4: #6c6f93;
-  --eh-border: color-mix(in srgb, var(--eh-4) 45%, transparent);
-  --eh-gap: 12px;
+    /* UI surfaces */
+    --eh-0: #16161c;
+    --eh-1: #1c1e26;
+    --eh-2: #232530;
+    --eh-3: #2e303e;
+    --eh-4: #6c6f93;
+    --eh-border: color-mix(in srgb, var(--eh-4) 45%, transparent);
+    --eh-gap: 12px;
 
-  /* Accent */
-  --eh-accent: var(--color02);
-  --eh-accent-strong: var(--color13);
-  --eh-danger: var(--color01);
-  --eh-accent-dim: color-mix(in srgb, var(--eh-accent) 55%, var(--eh-1));
-  --eh-channel-icon-dim: color-mix(in srgb, var(--color04) 35%, var(--eh-1));
-
+    /* Accent */
+    --eh-accent: var(--color02);
+    --eh-accent-strong: var(--color13);
+    --eh-danger: var(--color01);
+    --eh-accent-dim: color-mix(in srgb, var(--eh-accent) 55%, var(--eh-1));
+    --eh-channel-icon-dim: color-mix(in srgb, var(--color04) 35%, var(--eh-1));
+}
 
 
 .theme-dark,
