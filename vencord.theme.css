@@ -221,6 +221,25 @@ a[data-list-item-id^="channels___"] svg path {
   color: var(--mx-green-dim) !important;
 }
 
+/* Channel name base (read / not selected) */
+a[data-list-item-id^="channels___"]:not([class*="modeUnread"]):not([aria-selected="true"]) [class*="name"],
+a[data-list-item-id^="channels___"]:not([class*="modeUnread"]):not([aria-selected="true"]) [class*="name"] * {
+  color: var(--color07) !important;
+  opacity: 0.55 !important;
+}
+
+/* Vesktop/Vencord fallback */
+#channels [class*="name__"] {
+  color: var(--color07) !important;
+  opacity: 0.55 !important;
+}
+
+#channels [class*="modeUnread"] [class*="name__"] {
+  color: var(--mx-green) !important;
+  opacity: 1 !important;
+  font-weight: 600 !important;
+}
+
 /* Unread channel icon */
 a[data-list-item-id^="channels___"][class*="modeUnread"] svg,
 a[data-list-item-id^="channels___"][class*="modeUnread"] svg path,
@@ -228,6 +247,14 @@ a[data-list-item-id^="channels___"][class*="modeUnread"] svg path,
 [class*="modeUnread"] [class*="icon__"] path {
   fill: var(--mx-green) !important;
   color: var(--mx-green) !important;
+}
+
+/* Unread channel name */
+a[data-list-item-id^="channels___"][class*="modeUnread"] [class*="name"],
+a[data-list-item-id^="channels___"][class*="modeUnread"] [class*="name"] * {
+  color: var(--mx-green) !important;
+  opacity: 1 !important;
+  font-weight: 600 !important;
 }
 
 /* Text input focus ring */
@@ -384,16 +411,11 @@ div[class*="unreadMentionsIndicatorBottom"] > div {
   color: inherit !important;
 }
 
-/* Channel list unread count: add suffix */
-#channels [class*="children__2ea32"] [class*="numberBadge"] {
+/* Channel list unread count: target the "N New" label in channel rows */
+#channels [class*="children__"] [data-text-variant="text-xs/semibold"] {
   color: var(--mx-green) !important;
-}
-
-#channels [class*="children__2ea32"] [class*="numberBadge"]::after {
-  content: " new" !important;
-  color: var(--mx-green) !important;
-  font-size: 0.9em !important;
-  line-height: 1 !important;
+  text-transform: lowercase !important;
+  letter-spacing: 0.02em !important;
 }
 
 /* New messages bar */
