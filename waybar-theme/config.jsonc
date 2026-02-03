@@ -157,7 +157,7 @@
   },
   "clock": {
     "format": "{:%I:%M}",
-    "format-alt": "{:L%d %B W%V %Y}",
+    "format-alt": "{:%m-%d-%y}",
     "tooltip-format": "<span>{calendar}</span>",
     "calendar": {
       "mode": "month",
