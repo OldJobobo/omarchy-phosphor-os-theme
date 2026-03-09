@@ -27,32 +27,13 @@ omarchy-theme-install https://github.com/oldjobobo/omarchy-phosphor-os-theme
 
 ## Wallpapers
 
-<table>
-  <tr>
-    <td><img src="backgrounds/wallhaven-0p52pj.png" width="220" alt="wallhaven-0p52pj"></td>
-    <td><img src="backgrounds/wallhaven-1pwe63.png" width="220" alt="wallhaven-1pwe63"></td>
-    <td><img src="backgrounds/wallhaven-1qppl9.jpg" width="220" alt="wallhaven-1qppl9"></td>
-  </tr>
-  <tr>
-    <td><img src="backgrounds/wallhaven-39mjxd.png" width="220" alt="wallhaven-39mjxd"></td>
-    <td><img src="backgrounds/wallhaven-85pjk1.png" width="220" alt="wallhaven-85pjk1"></td>
-    <td><img src="backgrounds/wallhaven-d6m9xg.png" width="220" alt="wallhaven-d6m9xg"></td>
-  </tr>
-  <tr>
-    <td><img src="backgrounds/wallhaven-l8x6xr.png" width="220" alt="wallhaven-l8x6xr"></td>
-    <td><img src="backgrounds/wallhaven-nz1wdg.png" width="220" alt="wallhaven-nz1wdg"></td>
-    <td><img src="backgrounds/wallhaven-oggvw9.jpg" width="220" alt="wallhaven-oggvw9"></td>
-  </tr>
-  <tr>
-    <td><img src="backgrounds/wallhaven-oxrj2m.png" width="220" alt="wallhaven-oxrj2m"></td>
-    <td><img src="backgrounds/wallhaven-pkogdp.jpg" width="220" alt="wallhaven-pkogdp"></td>
-    <td><img src="backgrounds/wallhaven-vq3v2m.jpg" width="220" alt="wallhaven-vq3v2m"></td>
-  </tr>
-  <tr>
-    <td><img src="backgrounds/wallhaven-wevpoq.png" width="220" alt="wallhaven-wevpoq"></td>
-    <td><img src="backgrounds/wallhaven-xlpx3z.jpg" width="220" alt="wallhaven-xlpx3z"></td>
-  </tr>
-</table>
+| | | |
+| --- | --- | --- |
+| ![](backgrounds/0-terminal-tilt.png) | ![](backgrounds/1-at-your-command.png) | ![](backgrounds/2-neon-staticfall.jpg) |
+| ![](backgrounds/3-hexfield-stars.png) | ![](backgrounds/4-loopback.png) | ![](backgrounds/5-wave-grid.png) |
+| ![](backgrounds/6-pirate-matrix.png) | ![](backgrounds/7-signal-shards.png) | ![](backgrounds/8-night-window.jpg) |
+| ![](backgrounds/9-hex-reticle.png) | ![](backgrounds/10-linux-wordcloud.jpg) | ![](backgrounds/11-green-fall.jpg) |
+| ![](backgrounds/12-horizon-grid.png) | ![](backgrounds/13-breach-hoodie.jpg) |  |
 
 ## Requirements
 
